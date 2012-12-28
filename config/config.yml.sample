@@ -1,0 +1,2 @@
+#store_file_path: "/usr/local/data/wic/"
+store_file_path: nil
