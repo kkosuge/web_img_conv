@@ -52,7 +52,7 @@ module WebImgConv
     end
 
     def rmagick_image
-      Magick::Image.from_blob(get_image).first
+      Magick::Image.from_blob(get_image).first.strip!
     end
 
     def rmagick_image_from_cache
