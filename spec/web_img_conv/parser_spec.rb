@@ -22,4 +22,14 @@ describe WebImgConv::Parser do
     its([:height]){ should eq 200 }
     its([:image_url]){ should eq 'https://gist.github.com/raw/4467877/onomichi.jpg' }
   end
+
+  describe "url cache controll paramater" do
+    url = "/resize_to_fill/350x200/https://gist.github.com/raw/4467877/onomichi.jpg?version=2"
+    subject{ WebImgConv::Parser.parse(url) }
+
+    its([:method]){ should eq 'resize_to_fill' }
+    its([:width]){  should eq 350 }
+    its([:height]){ should eq 200 }
+    its([:image_url]){ should eq 'https://gist.github.com/raw/4467877/onomichi.jpg?version=2' }
+  end
 end
