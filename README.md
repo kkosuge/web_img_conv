@@ -9,18 +9,18 @@ rackup
 
 ### original
 ```
-https://gist.github.com/raw/4467877/onomichi.jpg
+http://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Onomichi_machinami.jpg/800px-Onomichi_machinami.jpg
 ```
-![](https://gist.github.com/raw/4467877/onomichi.jpg)
+![](https://raw.githubusercontent.com/kkosuge/web_img_conv/master/sample/800px-Onomichi_machinami.jpg)
 
 ### resize
 ```
-http://localhost:9292/resize/350x200/https://gist.github.com/raw/4467877/onomichi.jpg
+http://localhost:9292/resize/350x200/http://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Onomichi_machinami.jpg/800px-Onomichi_machinami.jpg
 ```
-![](https://gist.github.com/raw/4467877/onomichi2.jpg)
+![](https://raw.githubusercontent.com/kkosuge/web_img_conv/master/sample/resize-800px-Onomichi_machinami.jpg)
 
 ### resize_to_fill
 ```
-http://localhost:9292/resize_to_fill/350x200/https://gist.github.com/raw/4467877/onomichi.jpg
+http://localhost:9292/resize_to_fill/350x200/http://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Onomichi_machinami.jpg/800px-Onomichi_machinami.jpg
 ```
-![](https://gist.github.com/raw/4467877/onomichi3.jpg)
+![](https://raw.githubusercontent.com/kkosuge/web_img_conv/master/sample/resize_to_fill-800px-Onomichi_machinami.jpg)
